@@ -7,5 +7,5 @@ export const logError = (...args) =>
 export const renderIf = (test, component) =>
   test ? component :undefined
 
-export const clasToggler = (config) =>
+export const classToggler = (config) =>
   Object.keys(config).filter(key => config[key]).join(' ')
